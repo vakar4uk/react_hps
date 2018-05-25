@@ -1,13 +1,13 @@
-import React from 'react'; 
+import React from 'react';
 
 import classes from './LoginTitle.css';
 
-const LoginTitle = () => { 
+const LoginTitle = () => {
     return (
-    <div className={classes.logoContainer}>
-        <img src={require("../../../assets/images/whiteoutline.png")} alt="Company's Logo" />
-    </div>
+        <div className={classes.logoContainer}>
+            <img src={require("../../../assets/images/whiteoutline.png")} alt="Company's Logo" />
+        </div>
     );
-}; 
+};
 
 export default LoginTitle;
