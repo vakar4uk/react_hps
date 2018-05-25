@@ -8,10 +8,6 @@ body {
     margin-top: 100px;
 }
 
-.logoContainer {
-    padding-bottom: 80px;
-}
-
 .loginForm {
     /* Size & position */
     width: 420px;

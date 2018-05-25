@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import LoginTitle from './LoginTitle/LoginTitle';
+
 import classes from './Login.css';
 
 class Login extends Component {
@@ -8,9 +10,7 @@ class Login extends Component {
             <div className={classes.loginWrapper}>
 
                 {/* Logo display */}
-                <div className={classes.logoContainer}>
-                    <img src={require("../../assets/images/whiteoutline.png")} alt="Company's Logo" />
-                </div>
+                <LoginTitle />
 
                 {/* Actual login form */}
                 <div className="container-fluid">
